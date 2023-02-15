@@ -4,7 +4,7 @@ const prefix = '!';
 
 client.on('message', message => {
 
-  // Vérifie si la commande commence par le préfixe + "augoulaga"
+  // Vérifie si la commande commence par le préfixe + "augoulaga"//
   if (message.content.startsWith(prefix + 'augoulaga')) {
     
     console.log ('hello jai bien reçu la commande');
